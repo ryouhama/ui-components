@@ -1,8 +1,7 @@
-import { HomePresenter as Home } from './persenter'
+import { HomePresenter as Home } from "./persenter";
 
-type Props = {}
+type Props = {};
 
 export const HomeContainer: React.FC<Props> = (props) => {
-
-  return <Home></Home>
-}
+  return <Home></Home>;
+};
