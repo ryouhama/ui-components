@@ -9,6 +9,7 @@ export const App: VFC = () => {
     { path: "/Home/", name: "ホーム" },
     { path: "/SideBar/", name: "サイドバー" },
     { path: "/CodeView/", name: "コードビュー" },
+    { path: "/Flex/", name: "フレックス" },
   ];
 
   return (
