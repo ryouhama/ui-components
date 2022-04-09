@@ -1,10 +1,11 @@
-type Props = {}
+import { VFC, PropsWithChildren } from "react";
 
-export const HomePresenter: React.FC<Props> = (props) => {
+type Props = {};
 
+export const HomePresenter: VFC<PropsWithChildren<Props>> = (props) => {
   return (
-    <div>
-      Welcome to Ui Components
-    </div>
-  )
-}
+    <>
+      <div>Welcome to Ui Components</div>
+    </>
+  );
+};
